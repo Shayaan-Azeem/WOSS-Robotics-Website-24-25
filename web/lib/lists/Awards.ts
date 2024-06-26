@@ -16,6 +16,7 @@ export const awards: Award[] = [
     title: "Over Under",
     details: [
       { title: "Excellence Award", competition: "Ontario VRC H.S. Over/Under Provincial Championships 2024" },
+      { title: "World Skills Champion", competition: "VEX AI World Championships" },
       { title: "Tournament Finalists", competition: "iDESIGN Central Toronto VEX VRC Robotics Competition" },
       { title: "Excellence Award", competition: "iDESIGN Central Toronto VEX VRC Robotics Competition" },
       { title: "Innovate Award", competition: "TCTM & CSAA Blended VRC Lunar New Year Qualifier" },
@@ -34,14 +35,20 @@ export const awards: Award[] = [
     season: "2022-23",
     title: "Spin Up",
     details: [
-      { title: "Skills Champion", competition: "Ontario VEX Skills Qualifier" },
+      { title: "Create Award", competition: "VEX Robotics Ontario In-person VRC Provincial Championships 2023" },
+      { title: "Skills Champion", competition: "VEX Skills Ontario Qualifier" },
+      { title: "Innovate Award", competition: "iDESIGN Central Toronto VEX Robotics Competition" },
+      { title: "Tournament Finalists", competition: "iDESIGN Central Toronto VEX Robotics Competition"},
+      { title: "Design Award", competition: "CanSTEAM December VRC In Person Qualifying Tournament"},
+      { title: "Global Finalist", competition: "Reverse Engineering Challenge" },
+
     ],
   },
   {
     season: "2021-22",
     title: "Tipping Point",
     details: [
-      { title: "Skills Champion", competition: "Ontario VEX Skills Qualifier" },
+      { title: "Global Winner", competition: "Reverse Engineering Challenge" },
     ],
   },
 ];
