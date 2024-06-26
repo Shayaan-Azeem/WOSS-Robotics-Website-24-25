@@ -1,6 +1,6 @@
 export const Mentors = [
   {
-    name: "Mr. Wood",
+    name: "Mr. Akhter",
     img: "/yellowWildcatsLogo.png",
     role: "Robotics"
   },
