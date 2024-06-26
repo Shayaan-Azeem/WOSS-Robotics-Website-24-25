@@ -1,6 +1,6 @@
 export const Mentors = [
   {
-    name: "Mr. Achter",
+    name: "Mr. Wood",
     img: "/yellowWildcatsLogo.png",
     role: "Robotics"
   },
@@ -35,14 +35,14 @@ export const Team2024 = [
   },
   {
     name: "Kenny Shi",
-    img: "/yellowWildcatsLogo.png",
+    img: "/people/Kenny.png",
     role: "VEX Senior",
   },
 
 
   {
     name: "Linqi Liu",
-    img: "/Linqi.png",
+    img: "/yellowWildcatsLogo.png",
     role: "VEX Junior",
   },
   {
@@ -52,7 +52,7 @@ export const Team2024 = [
   },
   {
     name: "Gregory Gu",
-    img: "/yellowWildcatsLogo.png",
+    img: "/people/Greg.png",
     role: "VEX Junior",
   },
 
