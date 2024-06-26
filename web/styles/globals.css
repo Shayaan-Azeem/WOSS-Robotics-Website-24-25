@@ -41,6 +41,27 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 }
+/* styles/globals.css or appropriate stylesheet */
+body {
+  background-color: #1a202c; /* Dark background */
+  color: #e2e8f0; /* Light text color */
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #63b3ed; /* Light blue color for links on hover */
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #2d3748, #1a202c);
+}
 
 @media (prefers-color-scheme: dark) {
   :root {

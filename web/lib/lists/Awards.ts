@@ -37,4 +37,11 @@ export const awards: Award[] = [
       { title: "Skills Champion", competition: "Ontario VEX Skills Qualifier" },
     ],
   },
+  {
+    season: "2021-22",
+    title: "Tipping Point",
+    details: [
+      { title: "Skills Champion", competition: "Ontario VEX Skills Qualifier" },
+    ],
+  },
 ];

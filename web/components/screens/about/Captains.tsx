@@ -50,7 +50,7 @@ const Placeholder = () => {
 export const CaptainsScreen = () => {
   return (
     <div className="flex flex-col space-y-10">
-      <div className="border-2 border-gray-600 rounded-lg px-10 py-8 justify-center items-center flex">
+      <div className="border-2 border-gray-600 rounded-lg px-4 py-4 md:px-10 md:py-8 justify-center items-center flex">
         <Image
           className="rounded-lg"
           src="/team-pics/team.png"
@@ -61,10 +61,10 @@ export const CaptainsScreen = () => {
         />
       </div>
 
-      <div className="border-2 border-gray-600 rounded-lg px-10 py-8">
+      <div className="border-2 border-gray-600 rounded-lg px-4 py-4 md:px-10 md:py-8">
         <Title>Mentors</Title>
 
-        <div className="flex flex-col md:grid md:grid-cols-3 gap-5">
+        <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {Mentors.map((member: TeamMember, key: number) => {
             return (
               <Captain
@@ -77,7 +77,7 @@ export const CaptainsScreen = () => {
           })}
         </div>
       </div>
-      <div className="border-2 border-gray-600 rounded-lg px-10 py-8">
+      <div className="border-2 border-gray-600 rounded-lg px-4 py-4 md:px-10 md:py-8">
         <Title>
           Captains <span className="font-bold text-gray-400">/ </span>
           <span className="text-gray-400 font-medium">
@@ -86,12 +86,12 @@ export const CaptainsScreen = () => {
         </Title>
 
         <div className="flex flex-col items-center space-y-5">
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             {Team2024.slice(0, 2).map((member: TeamMember, key: number) => (
               <Captain key={key} name={member.name} role={member.role} img={member.img} />
             ))}
           </div>
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {Team2024.slice(2).map((member: TeamMember, key: number) => (
               <Captain key={key} name={member.name} role={member.role} img={member.img} />
             ))}

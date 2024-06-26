@@ -24,7 +24,6 @@ export default function Home() {
       setLoaded(false);
       setTimeout(() => {
         setBgImageIndex(Math.floor(Math.random() * bgImages.length));
-
         setBgImageOpacity(0.2);
       }, 1000);
     }, 5000);
@@ -52,29 +51,29 @@ export default function Home() {
             }}
           />
           <div className="flex flex-col min-h-screen z-10">
-            <Navbar className="mb-[100px] md:mb-[205px] overflow-y-hidden overflow-y-auto" />
+            <Navbar className="mb-[100px] md:mb-[205px] overflow-y-hidden" />
             <div className="flex-grow">
-              <div className="flex flex-col items-center justify-center space-y-4"> {/* Adjust space-y-4 for more or less spacing */}
-                <div className="flex items-center justify-center">
+              <div className="flex flex-col items-center justify-center space-y-4 px-4 md:px-0"> {/* Adjust space-y-4 for more or less spacing */}
+                <div className="flex flex-col md:flex-row items-center justify-center">
                   <a href="https://www.vexrobotics.com/">
                     <Image
                       className="mx-2" // Adjust margins as needed
                       src="/VRClogo.png"
-                      height="120"
-                      width="120"
+                      height="100"
+                      width="100"
                       alt="VEX Robotics Competition Logo"
                       priority={true}
                     />
                   </a>
-                  <p className="font-black text-white text-5xl mx-2">x</p>
+                  <p className="font-black text-white text-4xl mx-2 md:text-5xl">x</p>
 
                   <Link href="/" legacyBehavior>
                     <a>
                       <Image
                         className="logo6070"
                         src="/yellowWildcatsLogo.png"
-                        height="60"
-                        width="60"
+                        height="50"
+                        width="50"
                         alt="Wildcats Logo"
                         priority={true}
                       />
@@ -82,12 +81,12 @@ export default function Home() {
                   </Link>
                 </div>
 
-                <div className="text-white font-black text-8xl md:text-[100px] text-center"> {/* Centered text */}
+                <div className="text-white font-black text-5xl md:text-8xl text-center px-4"> {/* Centered text */}
                   WE ARE <a href="https://www.thebluealliance.com/team/843" target="_blank">
                     <span className="text-primary">WILDCATS.</span>
                   </a>
                 </div>
-                <p className="text-xl md:text-3xl font-medium mt-5 text-gray-400 text-center"> {/* Centered text */}
+                <p className="text-lg md:text-3xl font-medium mt-5 text-gray-400 text-center px-4"> {/* Centered text */}
                   A <a href="https://www.vexrobotics.com/" target="_blank">
                     <span className="italic mr-1">VEX®</span>
                   </a> Robotics Team
