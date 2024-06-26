@@ -80,17 +80,6 @@ export default function Home() {
                       />
                     </a>
                   </Link>
-                  <p className="font-black text-white text-5xl mx-2">x</p>
-                  <a href="https://uwaterloo.ca/electric-vehicle-challenge/">
-                    <Image
-                      className="mx-2"
-                      src="/UW_eng.png"
-                      height="120"
-                      width="120"
-                      alt="Waterloo Engineering Logo"
-                      priority={true}
-                    />
-                  </a>
                 </div>
 
                 <div className="text-white font-black text-8xl md:text-[100px] text-center"> {/* Centered text */}
@@ -101,10 +90,7 @@ export default function Home() {
                 <p className="text-xl md:text-3xl font-medium mt-5 text-gray-400 text-center"> {/* Centered text */}
                   A <a href="https://www.vexrobotics.com/" target="_blank">
                     <span className="italic mr-1">VEX®</span>
-                  </a> Robotics and
-                  <a href="https://uwaterloo.ca/electric-vehicle-challenge/" target="_blank">
-                    <span className="italic mr-1">Waterloo® EV Challenge</span>
-                  </a> Team
+                  </a> Robotics Team
                 </p>
               </div>
             </div>

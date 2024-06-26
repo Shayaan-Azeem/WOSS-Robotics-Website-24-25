@@ -42,7 +42,7 @@ export const GeneralScreen = () => {
         <div>
           <h2 className="font-bold text-gray-300 text-lg">About Us</h2>
           <p className="text-left text-gray-400">
-            Hi there, welcome to our site! We are a VEX Robotics and EV Race team from {" "}
+            Hi there, welcome to our site! We are two ROOKIE VEX teams in the 2024-2025 season from {" "}
             <a
               href="https://wos.hdsb.ca/"
               className="text-primary hover:text-white"
@@ -51,18 +51,35 @@ export const GeneralScreen = () => {
               White Oaks Secondary School in Oakville, ON, Canada 🇨🇦
             </a>
             ! We&apos;re a team of passionate students who love
-            everything about Robotics & Engineering.
+            everything about robotics.
             <br />
-            <br />
-            Our VEX team has been competing since 2022,
-            and our newly established Electric Vehicle team has been working hard since 2023 to compete in May 2025. {" "}
           </p>
         </div>
 
         <div>
-          <h2 className="font-bold text-gray-300 text-lg">Our Mission</h2>
+          <h2 className="font-bold text-gray-300 text-lg">Teams</h2>
           <p className="text-left text-gray-400">
-            We aim to restore the Wildcats to our former robotic glory! 🤖
+            Our senior team, <a
+              href="https://wos.hdsb.ca/"
+              className="text-primary hover:text-white"
+              target="_blank"
+            >
+            8433W
+            </a>
+            , is made up of 10 of our more experienced members,
+            having competed at Worlds for VEX V5 & AI and earned provincial VEX Skills placements for the past 2 seasons.
+
+            <br />
+
+            Our junior team, <a
+              href="https://wos.hdsb.ca/"
+              className="text-primary hover:text-white"
+              target="_blank"
+            >
+            8433X
+            </a>
+            , is made for students getting their feet wet in competitive robotics for the first time. They have 3 captains
+            to guide them along, and work together to compete at the same qualifying competitions as our senior counterpart.
           </p>
         </div>
       </div>
