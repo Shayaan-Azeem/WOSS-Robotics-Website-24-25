@@ -123,7 +123,7 @@ export const RegisterScreen = () => {
       <div className="border-2 border-gray-600 rounded-lg md:w-[939px] px-10 py-8">
         <h1 className="md:text-4xl text-3xl font-bold text-left mb-5">
           <span className="text-gray-400">
-            Don't want to compete? Try <span className="text-primary">Online Challenges.</span>{" "}
+            Don&apos;t want to compete? Try <span className="text-primary">Online Challenges.</span>{" "}
           </span>
         </h1>
 
