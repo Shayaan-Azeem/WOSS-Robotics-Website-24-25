@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="VEX 2106 & EV 843 @ White Oaks Secondary School"
+          content="VEX 8433 @ White Oaks Secondary School"
         />
         <meta
           name="keywords"
@@ -15,13 +15,13 @@ export default function Document() {
         <meta name="og:title" content="WOSS Robotics" />
         <meta
           name="og:description"
-          content="VEX 2106 & EV 843 @ White Oaks Secondary School"
+          content="VEX 8433 @ White Oaks Secondary School"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="WOSS Robotics" />
         <meta
           name="twitter:description"
-          content="VEX 2106 & EV 843 @ White Oaks Secondary School"
+          content="VEX 8433 @ White Oaks Secondary School"
         />
         <meta name="twitter:image" content="/meta-img.png" />
         <meta name="theme-color" content="#FBBB04" />
