@@ -10,7 +10,7 @@ interface Props {
 export const Navbar = (props: Props) => {
   const navbarItems = [
     { title: "About", path: "/about" },
-    { title: "BuildLog", path: "/about" },
+    // { title: "BuildLog", path: "/about" },
     { title: "History", path: "/history" },
     { title: "Sponsors", path: "/sponsors" },
     { title: "Contact Us", path: "/contact" },

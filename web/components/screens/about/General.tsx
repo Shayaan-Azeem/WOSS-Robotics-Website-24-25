@@ -78,8 +78,8 @@ export const GeneralScreen = () => {
             >
             8433X
             </a>
-            , is made for students getting their feet wet in competitive robotics for the first time. They have 3 captains
-            to guide them along, and work together to compete at the same qualifying competitions as our senior counterpart.
+            , is made for students getting their feet wet in competitive robotics for the first time. With 3 captains
+            for guidance, we work together to compete at the same qualifying competitions as our senior counterpart.
           </p>
         </div>
       </div>

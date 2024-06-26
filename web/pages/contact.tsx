@@ -35,7 +35,7 @@ export default function ContactUsScreen() {
             </a>
           </div>
           <span className="text-gray-400 text-xs mb-10">
-            White Oaks Secondary School • VEX 2106 • EV 843
+            White Oaks Secondary School • VEX 8433
           </span>
           <iframe
             style={{

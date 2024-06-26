@@ -71,8 +71,8 @@ export const RegisterScreen = () => {
       <div className="border-2 border-gray-600 rounded-lg md:w-[939px] px-10 py-8">
         <h1 className="md:text-4xl text-3xl font-bold text-left mb-5">
           <span className="text-gray-400">
-            Interested in joining <span className="text-primary">VEX 2106?</span>{" "}
-            (2023-24)
+            Interested in joining <span className="text-primary">VEX 8433?</span>{" "}
+            (2024-25)
           </span>
         </h1>
 
@@ -81,10 +81,9 @@ export const RegisterScreen = () => {
             <h2 className="font-bold text-gray-300 text-lg mb-3">Information</h2>
             <p className="text-left text-gray-400">
               → All general members and captains wishing to paricipate <b>MUST</b>{" "}
-              pay and register (including signing safety forms), by the due date
-              that would be determined and informed to you (TBD).
-              <br /> <br />→ Registration Fee: <b> ($25)</b>
-              <br /> <br />→ All payments for VEX are made via SchoolCash Online.
+              pay and register (including signing safety forms), by a due date that will be communicated at the beginning of this school year.
+              <br /> <br />→ Registration Fee: <b> ($75)</b>
+              <br /> <br />→ All payments for VEX are made via SchoolCash Online or invoice.
             </p>
           </div>
 
@@ -100,7 +99,7 @@ export const RegisterScreen = () => {
               subtitle="Codes the robot's movements, sensors, and interactions with the game field and other robots"
             />
             <Subteam
-              title="🧑‍🎨 Design"
+              title="‍🎨 Design & Notebook"
               subtitle="3D Modelling and designing of robot's subsystems and frame"
             />
           </div>
@@ -108,7 +107,7 @@ export const RegisterScreen = () => {
           <div>
             <h2 className="font-bold text-gray-300 text-lg mb-3">Registration</h2>
             <p className="text-left text-gray-400">
-              Want to apply for General Member?{" "}
+              Want to be a member of competitive robotics?{" "}
               <b
                 className="cursor-not-allowed text-primary"
                 onMouseEnter={() => handleHover2(1)}
@@ -124,8 +123,7 @@ export const RegisterScreen = () => {
       <div className="border-2 border-gray-600 rounded-lg md:w-[939px] px-10 py-8">
         <h1 className="md:text-4xl text-3xl font-bold text-left mb-5">
           <span className="text-gray-400">
-            Interested in joining <span className="text-primary">EV 843?</span>{" "}
-            (2023-24)
+            Don't want to compete? Try <span className="text-primary">Online Challenges.</span>{" "}
           </span>
         </h1>
 
@@ -136,32 +134,32 @@ export const RegisterScreen = () => {
               → All general members and captains wishing to paricipate <b>MUST</b>{" "}
               pay and register (including signing safety forms), by the due date
               that would be determined and informed to you (TBD).
-              <br /> <br />→ Registration Fee: <b> ($25)</b>
-              <br /> <br />→ All payments for the EV Race Team are made via SchoolCash Online.
+              <br /> <br />→ Registration Fee: <b> ($50)</b>
+              <br /> <br />→ All payments for VEX Online Challenges are made via SchoolCash Online or invoice.
             </p>
           </div>
 
-          <h2 className="font-bold text-gray-300 text-lg">Subteams</h2>
+          <h2 className="font-bold text-gray-300 text-lg">Skills Gained</h2>
           <div className="flex flex-col md:grid grid-cols-3 gap-5">
             <Subteam
-              title="🔨 Build"
-              subtitle="Workshop construction of car frame; steel & aluminum welding; soldering"
+              title="📓 Notebooking"
+              subtitle="Recording and annotating the engineering process of a project over a long period of time."
             />
             <Subteam
-              title="🔌 Electrical"
-              subtitle="Manages the electric vehicle's electrical components, including wiring and safety"
+              title="🎮 Programming"
+              subtitle="The VEX VR and Mathworks Challenges teach valuable skills in mathematical and control coding."
             />
 
             <Subteam
-              title="🧑‍🎨 Design"
-              subtitle="3D design of car's body, steering and suspension subsytems using Inventor"
+              title="🔧 Engineering"
+              subtitle="All VEX Online Challenges involve some type of engineering, serving as a great introduction to the field."
             />
           </div>
 
           <div>
             <h2 className="font-bold text-gray-300 text-lg mb-3">Registration</h2>
             <p className="text-left text-gray-400">
-              Want to apply for General Member?{" "}
+              Want to participate in VEX Online Challenges?{" "}
               <b
                 className="cursor-not-allowed text-primary"
                 onMouseEnter={() => handleHover2(1)}

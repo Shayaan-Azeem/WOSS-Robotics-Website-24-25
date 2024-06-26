@@ -1,44 +1,40 @@
-export const Awards = [
+// ./lists/Awards.ts
+export interface AwardDetail {
+  title: string;
+  competition: string;
+}
+
+export interface Award {
+  season: string;
+  title: string;
+  details: AwardDetail[];
+}
+
+export const awards: Award[] = [
   {
-    img: "/awards/EJD-KYgWoAEORDV.jpg",
-    title: "McMaster University District Event",
-    year: "2019",
-    subtitle: "District Event Winner",
+    season: "2023-24",
+    title: "Over Under",
+    details: [
+      { title: "Excellence Award", competition: "Ontario VRC H.S. Over/Under Provincial Championships 2024" },
+      { title: "Tournament Finalists", competition: "iDESIGN Central Toronto VEX VRC Robotics Competition" },
+      { title: "Excellence Award", competition: "iDESIGN Central Toronto VEX VRC Robotics Competition" },
+      { title: "Innovate Award", competition: "TCTM & CSAA Blended VRC Lunar New Year Qualifier" },
+      { title: "Tournament Finalists", competition: "Canadian Open VRC Signature Event" },
+      { title: "Robot Skills 2nd Place", competition: "The RiverBots II VRC Over Under Signature Event" },
+      { title: "Excellence Award", competition: "St. Catharines VRC Qualifier" },
+      { title: "Tournament Champions", competition: "St. Catharines VRC Qualifier" },
+      { title: "Robot Skills Champion", competition: "St. Catharines VRC Qualifier" },
+      { title: "Judges Award", competition: "Blended VRC In-Person Over/Under Qualifier Remote Judging and Notebooks" },
+      { title: "Excellence Award", competition: "VRC In Person Over/Under MS/HS Tournament. In Person Judging & Remote Notebook Submission" },
+      { title: "Design Award", competition: "Battle by the Beach VRC Signature Event" },
+      { title: "Global Finalist", competition: "Mathworks FollowThePathChallenge" },
+    ],
   },
   {
-    img: "/awards/EJA1Su4XYAI_0cN.jpg",
-    title: "Durham College District Event",
-    year: "2019",
-    subtitle: "Gracious Professionalism Award",
-  },
-  {
-    img: "/awards/IMG_0549.jpg",
-    title: "McMaster University District Event",
-    year: "2018",
-    subtitle: "Safety Award",
-  },
-  {
-    img: "/awards/28515219_1840517919346586_4816363233668407574_o.jpg",
-    title: "Durham College District Event",
-    year: "2018",
-    subtitle: "District Engineering Inspiration Award & Safety Award",
-  },
-  {
-    img: "/awards/IMG_0556.jpg",
-    title: "McMaster University District Event",
-    year: "2017",
-    subtitle: "Safety Award & Team Spirit Award",
-  },
-  {
-    img: "/awards/Western.jpg",
-    title: "Western University District Event",
-    year: "2017",
-    subtitle: "District Event Winner & Team Spirit Award",
-  },
-  {
-    img: "/awards/2016-Team-Photo.jpg",
-    title: "Greater Toronto East Regionals",
-    year: "2016",
-    subtitle: "Rookie All-Star Award",
+    season: "2022-23",
+    title: "Spin Up",
+    details: [
+      { title: "Skills Champion", competition: "Ontario VEX Skills Qualifier" },
+    ],
   },
 ];
