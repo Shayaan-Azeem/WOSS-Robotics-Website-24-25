@@ -82,7 +82,7 @@ export const RegisterScreen = () => {
             <p className="text-left text-gray-400">
               → All general members and captains wishing to paricipate <b>MUST</b>{" "}
               pay and register (including signing safety forms), by a due date that will be communicated at the beginning of this school year.
-              <br /> <br />→ Registration Fee: <b> ($75)</b>
+              <br /> <br />→ Registration Fee: <b> ($150)</b>
               <br /> <br />→ All payments for VEX are made via SchoolCash Online or invoice.
             </p>
           </div>
@@ -108,14 +108,13 @@ export const RegisterScreen = () => {
             <h2 className="font-bold text-gray-300 text-lg mb-3">Registration</h2>
             <p className="text-left text-gray-400">
               Want to be a member of competitive robotics?{" "}
-              <b
-                className="cursor-not-allowed text-primary"
-                onMouseEnter={() => handleHover2(1)}
-                onMouseLeave={() => handleHover2(2)}
+              <b><a
+                href="https://forms.gle/KCrBG39nWmHwF3349"
+                className="text-primary hover:text-white"
+                target="_blank"
               >
-                {" "}
-                {hoverText2 ? hoverText2 : "Apply here"}
-              </b>
+              Apply here.
+              </a></b>
             </p>
           </div>
         </div>
@@ -134,7 +133,7 @@ export const RegisterScreen = () => {
               → All general members and captains wishing to paricipate <b>MUST</b>{" "}
               pay and register (including signing safety forms), by the due date
               that would be determined and informed to you (TBD).
-              <br /> <br />→ Registration Fee: <b> ($50)</b>
+              <br /> <br />→ Registration Fee: <b> ($35)</b>
               <br /> <br />→ All payments for VEX Online Challenges are made via SchoolCash Online or invoice.
             </p>
           </div>
@@ -160,14 +159,13 @@ export const RegisterScreen = () => {
             <h2 className="font-bold text-gray-300 text-lg mb-3">Registration</h2>
             <p className="text-left text-gray-400">
               Want to participate in VEX Online Challenges?{" "}
-              <b
-                className="cursor-not-allowed text-primary"
-                onMouseEnter={() => handleHover2(1)}
-                onMouseLeave={() => handleHover2(2)}
+              <b><a
+                href="https://forms.gle/KCrBG39nWmHwF3349"
+                className="text-primary hover:text-white"
+                target="_blank"
               >
-                {" "}
-                {hoverText2 ? hoverText2 : "Apply here"}
-              </b>
+              Apply here.
+              </a></b>
             </p>
           </div>
         </div>

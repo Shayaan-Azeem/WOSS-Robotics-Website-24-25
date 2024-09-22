@@ -42,7 +42,7 @@ export const GeneralScreen = () => {
         <div>
           <h2 className="font-bold text-gray-300 text-lg">About Us</h2>
           <p className="text-left text-gray-400">
-            Hi there, welcome to our site! We are two ROOKIE VEX teams in the 2024-2025 season from {" "}
+            Hi there, welcome to our site! We are three ROOKIE VEX teams in the 2024-2025 season from {" "}
             <a
               href="https://wos.hdsb.ca/"
               className="text-primary hover:text-white"
@@ -60,7 +60,7 @@ export const GeneralScreen = () => {
           <h2 className="font-bold text-gray-300 text-lg">Teams</h2>
           <p className="text-left text-gray-400">
             Our senior team, <a
-              href="https://wos.hdsb.ca/"
+              href="https://www.robotevents.com/teams/V5RC/8433W"
               className="text-primary hover:text-white"
               target="_blank"
             >
@@ -71,15 +71,23 @@ export const GeneralScreen = () => {
 
             <br />
 
-            Our junior team, <a
+            Our junior teams, <a
               href="https://wos.hdsb.ca/"
               className="text-primary hover:text-white"
               target="_blank"
             >
             8433X
+            </a> and&nbsp;
+
+            <a
+              href="https://wos.hdsb.ca/"
+              className="text-primary hover:text-white"
+              target="_blank"
+            >
+            8433Y
             </a>
-            , is made for students getting their feet wet in competitive robotics for the first time. With 3 captains
-            for guidance, we work together to compete at the same qualifying competitions as our senior counterpart.
+            , are made for students trying competitive robotics for the first time. With captains
+            for guidance, teams work together to compete at the same qualifying competitions as our senior counterpart.
           </p>
         </div>
       </div>

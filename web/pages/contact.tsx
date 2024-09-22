@@ -28,7 +28,7 @@ export default function ContactUsScreen() {
             </a>
 
 
-            <a href="mailto:wossengineering@gmail.com" target="_blank">
+            <a href="mailto:team@wossrobotics.com" target="_blank">
               <p className="text-md font-bold text-primary hover:text-white">
                 <IoMdMail className="inline mr-1" size={20} /> Email
               </p>
