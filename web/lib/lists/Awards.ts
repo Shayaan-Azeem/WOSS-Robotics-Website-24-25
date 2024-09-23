@@ -16,7 +16,6 @@ export const awards: Award[] = [
     title: "Over Under",
     details: [
       { title: "Excellence Award", competition: "Ontario VRC H.S. Over/Under Provincial Championships 2024" },
-      { title: "World Skills Champion", competition: "VEX AI World Championships" },
       { title: "Tournament Finalists", competition: "iDESIGN Central Toronto VEX VRC Robotics Competition" },
       { title: "Excellence Award", competition: "iDESIGN Central Toronto VEX VRC Robotics Competition" },
       { title: "Innovate Award", competition: "TCTM & CSAA Blended VRC Lunar New Year Qualifier" },
