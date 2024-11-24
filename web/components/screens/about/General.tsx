@@ -72,7 +72,7 @@ export const GeneralScreen = () => {
             <br />
 
             Our junior teams, <a
-              href="https://wos.hdsb.ca/"
+              href="https://www.robotevents.com/teams/V5RC/8433X"
               className="text-primary hover:text-white"
               target="_blank"
             >
@@ -80,7 +80,7 @@ export const GeneralScreen = () => {
             </a> and&nbsp;
 
             <a
-              href="https://wos.hdsb.ca/"
+              href="https://www.robotevents.com/teams/V5RC/8433Y"
               className="text-primary hover:text-white"
               target="_blank"
             >

@@ -12,6 +12,15 @@ export interface Award {
 
 export const awards: Award[] = [
   {
+    season: "2024-25",
+    title: "High Stakes",
+    details: [
+      { title: "Excellence Award", competition: "Glenforest iDESIGN 365 VEX V5 Robotics Competition High Stakes" },
+      { title: "Tournament Champions", competition: "Glenforest iDESIGN 365 VEX V5 Robotics Competition High Stakes" },
+      { title: "2nd Place Skills", competition: "Glenforest iDESIGN 365 VEX V5 Robotics Competition High Stakes" }
+    ],
+  },
+  {
     season: "2023-24",
     title: "Over Under",
     details: [
