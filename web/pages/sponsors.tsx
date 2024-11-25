@@ -20,28 +20,21 @@ interface SponsorTier {
 }
 
 const sponsorData = [
-  // {
-  //
-  //   tier: "Diamond",
-  //   colour: "text-[#B9F2FF]",
-  //   amount: "$1000+",
-  //   sponsors: [
-  //     {
-  //       name: "Glenforest",
-  //       logo: "/sponsors/glenforest.png",
-  //       link: "https://glenforest.peelschools.org",
-  //       width: 150,
-  //       height: 100,
-  //     },
-  //     {
-  //       name: "Genius Tools",
-  //       logo: "/sponsors/genius-tools.png",
-  //       link: "https://www.geniustools.net/",
-  //       width: 320,
-  //       height: 320,
-  //     },
-  //   ],
-  // },
+  {
+  
+    tier: "Diamond",
+    colour: "text-[#B9F2FF]",
+    amount: "$1000+",
+    sponsors: [
+      {
+        name: "Atura Power",
+        logo: "/sponsors/autraPower.png",
+        link: "https://aturapower.com/",
+        width: 320,
+        height: 320,
+      },
+    ],
+  },
   {
     tier: "Gold",
     colour: "text-[#FFD700]",

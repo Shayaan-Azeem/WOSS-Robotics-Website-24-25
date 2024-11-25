@@ -56,6 +56,16 @@ export const Team2024 = [
     img: "/yellowWildcatsLogo.png",
     role: "VEX 8433Y",
   },
+  {
+    name: "Angelo Wei",
+    img: "/people/Angelo.png",
+    role: "VEX Challenges",
+  },
+  {
+    name: "Vidyuth Kripashankar",
+    img: "/people/Vidyuth.png",
+    role: "VEX Challenges",
+  },
 
   {
     name: "Avery Tran",
@@ -67,17 +77,15 @@ export const Team2024 = [
     img: "/people/Kaylan.png",
     role: "Photography",
   },
-
-
- 
   {
-    name: "Angelo Wei",
-    img: "/people/Angelo.png",
-    role: "VEX Challenges",
+    name: "Anya Huang",
+    img: "/yellowWildcatsLogo.png",
+    role: "Outreach",
   },
   {
-    name: "Vidyuth Kripashankar",
-    img: "/people/Vidyuth.png",
-    role: "VEX Challenges",
+    name: "Bianca Bian",
+    img: "/yellowWildcatsLogo.png",
+    role: "Outreach",
   },
+  
 ];

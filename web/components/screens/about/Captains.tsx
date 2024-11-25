@@ -50,16 +50,16 @@ const Placeholder = () => {
 export const CaptainsScreen = () => {
   return (
     <div className="flex flex-col space-y-10">
-      {/* <div className="border-2 border-gray-600 rounded-lg px-4 py-4 md:px-10 md:py-8 justify-center items-center flex">
+      <div className="border-2 border-gray-600 rounded-lg px-4 py-4 md:px-10 md:py-8 justify-center items-center flex">
         <Image
           className="rounded-lg"
-          src="/team-pics/team.png"
+          src="/team-pics/seniorTeam_Glenforest_Alliance.jpg"
           height="850"
           width="850"
           alt="Tournament Team Photo"
           priority={true}
         />
-      </div> */}
+      </div>
 
       <div className="border-2 border-gray-600 rounded-lg px-4 py-4 md:px-10 md:py-8">
         <Title>Mentors</Title>
