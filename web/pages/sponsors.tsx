@@ -28,7 +28,7 @@ const sponsorData = [
     sponsors: [
       {
         name: "Atura Power",
-        logo: "/sponsors/autraPower.png",
+        logo: "/sponsors/aturaPower_white.png",
         link: "https://aturapower.com/",
         width: 320,
         height: 320,
