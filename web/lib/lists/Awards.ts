@@ -44,7 +44,7 @@ export const awards: Award[] = [
     title: "Spin Up",
     details: [
       { title: "Create Award", competition: "VEX Robotics Ontario In-person VRC Provincial Championships 2023" },
-      { title: "Skills Champion", competition: "VEX Skills Ontario Qualifier" },
+      { title: "Robot Skills Champion", competition: "VEX Skills Ontario Qualifier" },
       { title: "Innovate Award", competition: "iDESIGN Central Toronto VEX Robotics Competition" },
       { title: "Tournament Finalists", competition: "iDESIGN Central Toronto VEX Robotics Competition"},
       { title: "Design Award", competition: "CanSTEAM December VRC In Person Qualifying Tournament"},
