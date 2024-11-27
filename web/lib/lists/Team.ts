@@ -24,46 +24,46 @@ export const Team2024 = [
 
   {
     name: "Kenny Shi",
-    img: "/people/Kenny.png",
+    img: "/people/Kenny.jpg",
     role: "VEX 8433W",
   },
   {
     name: "Victoria Wang",
-    img: "/people/Victoria.png",
+    img: "/people/Victoria.jpg",
     role: "VEX 8433W",
   },
 
 
   {
     name: "Rohanth Marem",
-    img: "/people/Rohanth.png",
+    img: "/people/Rohanth.jpg",
     role: "VEX 8433X",
   },
   {
     name: "Gregory Gu",
-    img: "/people/Greg.png",
+    img: "/people/Greg.jpg",
     role: "VEX 8433X",
   },
 
 
   {
     name: "Shreyas Nayak",
-    img: "/people/Shreyas.png",
+    img: "/people/Shreyas.jpg",
     role: "VEX 8433Y",
   },
   {
     name: "Linqi Liu",
-    img: "/yellowWildcatsLogo.png",
+    img: "/yellowWildcatsLogo.jpg",
     role: "VEX 8433Y",
   },
   {
     name: "Angelo Wei",
-    img: "/people/Angelo.png",
+    img: "/people/Angelo.jpg",
     role: "VEX Challenges",
   },
   {
     name: "Vidyuth Kripashankar",
-    img: "/people/Vidyuth.png",
+    img: "/people/Vidyuth.jpg",
     role: "VEX Challenges",
   },
 
@@ -74,7 +74,7 @@ export const Team2024 = [
   },
   {
     name: "Kaylan Patel",
-    img: "/people/Kaylan.png",
+    img: "/people/Kaylan.jpg",
     role: "Photography",
   },
   {

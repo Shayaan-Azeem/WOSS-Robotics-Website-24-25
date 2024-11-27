@@ -24,7 +24,7 @@ const sponsorData = [
   
     tier: "Diamond",
     colour: "text-[#B9F2FF]",
-    amount: "$1000+",
+    amount: "$1500+",
     sponsors: [
       {
         name: "Atura Power",
@@ -38,7 +38,7 @@ const sponsorData = [
   {
     tier: "Gold",
     colour: "text-[#FFD700]",
-    amount: "$500-$1000",
+    amount: "$750-$1500",
     sponsors: [
       {
         name: "CodeNinjas",
@@ -53,7 +53,7 @@ const sponsorData = [
   {
     tier: "Silver",
     colour: "text-[#C0C0C0]",
-    amount: "$250-$500",
+    amount: "$250-$750",
     sponsors: [
 
     ]
