@@ -41,7 +41,7 @@ export const Team2024 = [
   },
   {
     name: "Gregory Gu",
-    img: "/people/Greg.jpg",
+    img: "/people/Gregory.jpg",
     role: "VEX 8433X",
   },
 
@@ -53,7 +53,7 @@ export const Team2024 = [
   },
   {
     name: "Linqi Liu",
-    img: "/yellowWildcatsLogo.jpg",
+    img: "/yellowWildcatsLogo.png",
     role: "VEX 8433Y",
   },
   {
