@@ -1,7 +1,7 @@
 export const Mentors = [
   {
     name: "Mr. Brogly",
-    img: "/yellowWildcatsLogo.png",
+    img: "/people/Brogly.jpg",
     role: "Robotics"
   },
   {
@@ -53,7 +53,7 @@ export const Team2024 = [
   },
   {
     name: "Linqi Liu",
-    img: "/yellowWildcatsLogo.png",
+    img: "/people/Linqi.jpg",
     role: "VEX 8433Y",
   },
   {
@@ -66,7 +66,11 @@ export const Team2024 = [
     img: "/people/Vidyuth.jpg",
     role: "VEX Challenges",
   },
-
+  {
+    name: "Gabbi Ipwanshek",
+    img: "/people/Gabbi.jpg",
+    role: "Outreach",
+  },
   {
     name: "Avery Tran",
     img: "/yellowWildcatsLogo.png",
@@ -78,14 +82,10 @@ export const Team2024 = [
     role: "Photography",
   },
   {
-    name: "Anya Huang",
-    img: "/yellowWildcatsLogo.png",
-    role: "Outreach",
-  },
-  {
     name: "Bianca Bian",
     img: "/yellowWildcatsLogo.png",
     role: "Outreach",
   },
+  
   
 ];
