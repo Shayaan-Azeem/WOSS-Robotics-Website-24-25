@@ -69,7 +69,7 @@ export const Team2024 = [
   {
     name: "Gabbi Ipwanshek",
     img: "/people/Gabbi.jpg",
-    role: "Outreach",
+    role: "Media",
   },
   {
     name: "Avery Tran",
