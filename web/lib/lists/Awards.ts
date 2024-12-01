@@ -17,7 +17,8 @@ export const awards: Award[] = [
     details: [
       { title: "Excellence Award", competition: "Glenforest iDESIGN 365 VEX V5 Robotics Competition High Stakes" },
       { title: "Tournament Champions", competition: "Glenforest iDESIGN 365 VEX V5 Robotics Competition High Stakes" },
-      { title: "Robot Skills 2nd Place", competition: "Glenforest iDESIGN 365 VEX V5 Robotics Competition High Stakes" }
+      { title: "Robot Skills 2nd Place", competition: "Glenforest iDESIGN 365 VEX V5 Robotics Competition High Stakes" },
+      { title: "Design Award", competition: "Brampton V5RC Qualifier- Remote Judging and digital notebook" },
     ],
   },
   {

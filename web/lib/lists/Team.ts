@@ -14,12 +14,12 @@ export const Team2024 = [
   {
     name: "Zane Beeai",
     img: "/people/Zane.png",
-    role: "Head",
+    role: "Founder/Head",
   },
   {
     name: "Shayaan Azeem",
     img: "/people/Shayaan.png",
-    role: "Head",
+    role: "Founder/Head",
   },
 
   {
