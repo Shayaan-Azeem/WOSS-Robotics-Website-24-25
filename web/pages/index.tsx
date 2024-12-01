@@ -56,8 +56,8 @@ export default function Home() {
 <Navbar className="mb-[10px] md:mb-[15px] overflow-y-hidden" />
 
 {/* Banner Below Navbar */}
-<div className="w-full bg-black bg-opacity-75 text-center py-4 mb-[100px] overflow-hidden relative">
-  <div className="absolute inset-0 flex items-center justify-center">
+<div className="w-full bg-black bg-opacity-10 text-center py-4 mb-[100px] overflow-hidden relative">
+  <div className="absolute inset-0 flex items-center justify-center bg-black/30">
     <p className="text-primary text-lg md:text-xl font-bold whitespace-nowrap animate-slide delay-0">
       4th in Ontario
     </p>
@@ -69,6 +69,7 @@ export default function Home() {
     </p>
   </div>
 </div>
+
 
 <style jsx>
 {`
