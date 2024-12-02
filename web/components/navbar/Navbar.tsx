@@ -77,6 +77,7 @@ export const Navbar = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false); // State to manage menu visibility
   const navbarItems = [
     { title: "About", path: "/about" },
+    { title: "People", path: "/people" },
     { title: "History", path: "/history" },
     { title: "Sponsors", path: "/sponsors" },
     { title: "Contact Us", path: "/contact" },
